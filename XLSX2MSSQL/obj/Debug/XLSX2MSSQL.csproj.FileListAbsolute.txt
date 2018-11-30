@@ -1,0 +1,12 @@
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\update_BPPM_Dashboard.bat
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\XLSX2MSSQL.exe.config
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\XLSX2MSSQL.exe
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\XLSX2MSSQL.pdb
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\EPPlus.dll
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\NDesk.Options.dll
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\bin\Debug\EPPlus.xml
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\obj\Debug\XLSX2MSSQL.csprojAssemblyReference.cache
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\obj\Debug\XLSX2MSSQL.csproj.CoreCompileInputs.cache
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\obj\Debug\XLSX2MSSQL.csproj.CopyComplete
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\obj\Debug\XLSX2MSSQL.exe
+C:\Users\y707599\source\repos\XLSX2MSSQL\XLSX2MSSQL\obj\Debug\XLSX2MSSQL.pdb
