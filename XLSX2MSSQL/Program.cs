@@ -57,7 +57,6 @@ namespace XLS2MSSQL
             public List<string> rename_column_string_list = new List<string>();
             public SqlConnection sql_connection;
             public OptionSet option_set_object;
-            public string[] args;
 
             public ApplicationSettingsClass(string[] input_args)
             {
@@ -117,6 +116,20 @@ namespace XLS2MSSQL
                     this.database_table_name = Path.GetFileNameWithoutExtension(this.file_path);
                 }
 
+                //If no connection string is specified then use the value in the app.config file
+                if (connection_string == "")
+                {
+                    try
+                    {
+                        connection_string = ConfigurationManager.ConnectionStrings["MyConnectionStringName"].ConnectionString;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("The connection string was not set and could not find the value in the app.config file. Please use the -c parameter or app.config file");
+                        Environment.Exit(8);
+                    }
+                }
+
             }
 
             //Show help message
@@ -168,11 +181,7 @@ namespace XLS2MSSQL
 
         static SqlConnection find_connection_string_and_initialize_sql_connection(string connection_string)
         {
-            //If no connection string is specified then use the value in the app.config file
-            if (connection_string == "")
-            {
-                connection_string = ConfigurationManager.ConnectionStrings["MyConnectionStringName"].ConnectionString;
-            }
+
 
 
             //Open the SQL database connection
